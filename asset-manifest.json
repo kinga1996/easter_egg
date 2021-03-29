@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/easter_egg/static/css/main.f34dde6f.chunk.css",
+    "main.js": "/easter_egg/static/js/main.0fd1d5d8.chunk.js",
+    "main.js.map": "/easter_egg/static/js/main.0fd1d5d8.chunk.js.map",
+    "runtime-main.js": "/easter_egg/static/js/runtime-main.29703b2e.js",
+    "runtime-main.js.map": "/easter_egg/static/js/runtime-main.29703b2e.js.map",
+    "static/js/2.839dcac7.chunk.js": "/easter_egg/static/js/2.839dcac7.chunk.js",
+    "static/js/2.839dcac7.chunk.js.map": "/easter_egg/static/js/2.839dcac7.chunk.js.map",
+    "index.html": "/easter_egg/index.html",
+    "static/css/main.f34dde6f.chunk.css.map": "/easter_egg/static/css/main.f34dde6f.chunk.css.map",
+    "static/js/2.839dcac7.chunk.js.LICENSE.txt": "/easter_egg/static/js/2.839dcac7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29703b2e.js",
+    "static/js/2.839dcac7.chunk.js",
+    "static/css/main.f34dde6f.chunk.css",
+    "static/js/main.0fd1d5d8.chunk.js"
+  ]
+}
