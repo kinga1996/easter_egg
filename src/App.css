@@ -2,10 +2,84 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
+  font-family: 'Helvetica';
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  padding: 5vh 5vw;
+  background-image: 
+        radial-gradient(rgba(250, 201, 3, 0.2) 1px, transparent 0),
+        radial-gradient(rgb(157,193,131,0.2) 1px, transparent 0);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
 }
 
 :root{
-  --color1: blue;
   --color2: orange;
   --color3: red;
+}
+
+h1{
+  font-size: 4em;
+  font-family: 'Pacifico', cursive;
+  color: #fffddb;
+  text-shadow: -3px -3px #34c280, 3px 3px #34c280;
+}
+
+.egg{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 200px;
+  height: 300px;
+  border-radius: 50% 50% 48% 48%;
+  overflow: hidden;
+  padding: 10px 0;
+  margin: auto;
+}
+
+.stripe{
+  width: 100%;
+  height: 50px;
+  border-top: solid 5px var(--color3);
+  border-bottom: solid 5px var(--color3);
+  background-color: var(--color2);
+}
+
+.stripe-dots{
+  background-image: 
+      radial-gradient(var(--color3) 5px, transparent 5px),
+      radial-gradient(var(--color3) 2px, transparent 2px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.stripe-zygzag{
+  background-color: var(--color3);
+  background-image: 
+      linear-gradient(45deg, var(--color2) 25%, transparent 0),
+      linear-gradient(135deg, var(--color2) 25%, transparent 0),
+      linear-gradient(225deg, var(--color2) 25%, transparent 0),
+      linear-gradient(315deg, var(--color2) 25%, transparent 0);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 0, 20px 0, 0 0;
+}
+
+.stripe-heart{
+  background-image: 
+      linear-gradient(135deg, var(--color3) 9px, transparent 0),
+      linear-gradient(225deg, var(--color3) 9px, transparent 0),
+      radial-gradient(var(--color3) 9px, transparent 0),
+      radial-gradient(var(--color3) 9px, transparent 0);
+  background-size: 40px 40px;
+  background-position: 25px 22px, 25px 22px, 0 -3px, 10px -3px;
+}
+
+.scrolls{
+  display: flex;
+  justify-content: space-between;
+  margin: 5vh 15vw;
 }
